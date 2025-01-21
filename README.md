@@ -205,6 +205,6 @@ This revealed the plaintext password for the user `Kimberly`.
 2. **Schema Enumeration:**  
    - Understanding the database architecture is critical for efficient and focused enumeration.
 
-3. **Password Cracking Integration:**  
+3. **Password Decrypting:**  
    - SQLMap’s built-in hash-decrypting reinforced the importance of using strong, unique passwords and enforcing stronger password policies.
 
