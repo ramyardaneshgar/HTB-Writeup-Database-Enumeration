@@ -6,7 +6,6 @@ By Ramyar Danshgar
 
 ## **Part 1: SQLMap Essentials**
 
-### **Objective:** Extract the contents of the `flag1` table in the `testdb` database.
 
 ---
 
@@ -36,7 +35,7 @@ Confirming the SQLi vulnerability and understanding the database backend (MySQL)
 
 ---
 
-### **Step 2: Retrieving Basic Database Information**
+### **Step 2: Retrieving Database Information**
 
 With the vulnerability confirmed, the next step involved gathering metadata about the database environment, such as the version, current user, and active database.
 
