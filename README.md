@@ -206,6 +206,5 @@ This revealed the plaintext password for the user `Kimberly`.
    - Understanding the database architecture is critical for efficient and focused enumeration.
 
 3. **Password Cracking Integration:**  
-   - SQLMap’s built-in hash-cracking highlights the importance of using strong, unique passwords and enforcing stronger password policies.
+   - SQLMap’s built-in hash-decrypting reinforced the importance of using strong, unique passwords and enforcing stronger password policies.
 
-Through these steps, I systematically leveraged SQLMap’s features to enumerate, extract, and analyze database content, demonstrating both technical proficiency and a methodical approach to SQL injection exploitation.
